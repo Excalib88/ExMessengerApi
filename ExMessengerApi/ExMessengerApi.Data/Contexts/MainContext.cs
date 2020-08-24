@@ -1,4 +1,5 @@
-﻿using ExMessengerApi.Models.Models;
+﻿using ExMessengerApi.Data.Configurations;
+using ExMessengerApi.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExMessengerApi.Data.Contexts
@@ -16,13 +17,9 @@ namespace ExMessengerApi.Data.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // modelBuilder.ApplyConfiguration(new MoviesConfiguration());
-            // modelBuilder.ApplyConfiguration(new CopiesConfiguration());
-            // modelBuilder.ApplyConfiguration(new ActorsConfiguration());
-            // modelBuilder.ApplyConfiguration(new StarringConfiguration());
-            // modelBuilder.ApplyConfiguration(new RentalsConfiguration());
-            // modelBuilder.ApplyConfiguration(new ClientsConfiguration());
-            // modelBuilder.ApplyConfiguration(new EmployeesConfiguration());
+            modelBuilder.ApplyConfiguration(new MessageConfiguration());
+            modelBuilder.ApplyConfiguration(new ChatUsersConfiguration());
+            modelBuilder.ApplyConfiguration(new ChatConfiguration());
         }
     }
 }
