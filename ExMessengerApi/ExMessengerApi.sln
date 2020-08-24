@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMessengerApi", "ExMessengerApi\ExMessengerApi.csproj", "{7975DD88-C68C-4469-8E48-EFFE63C0C4E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMessengerApi.Models", "ExMessengerApi.Models\ExMessengerApi.Models.csproj", "{67F0469A-0896-4BC3-AD15-290AEFF85A2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMessengerApi.Data.Models", "ExMessengerApi.Data.Models\ExMessengerApi.Data.Models.csproj", "{67F0469A-0896-4BC3-AD15-290AEFF85A2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMessengerApi.Data", "ExMessengerApi.Data\ExMessengerApi.Data.csproj", "{B08B1F8F-9D53-4D0D-945D-840B697721DA}"
 EndProject

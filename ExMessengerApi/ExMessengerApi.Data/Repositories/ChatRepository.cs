@@ -1,4 +1,4 @@
-﻿using ExMessengerApi.Models.Models;
+﻿using ExMessengerApi.Data.Models.Models;
 
 namespace ExMessengerApi.Data.Repositories
 {

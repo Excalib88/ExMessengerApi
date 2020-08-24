@@ -1,4 +1,4 @@
-﻿using ExMessengerApi.Models.Models;
+﻿using ExMessengerApi.Data.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

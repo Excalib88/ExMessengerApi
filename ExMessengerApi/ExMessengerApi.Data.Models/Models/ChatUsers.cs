@@ -1,9 +1,11 @@
-﻿namespace ExMessengerApi.Models.Models
+﻿using System;
+
+namespace ExMessengerApi.Data.Models.Models
 {
     public class ChatUsers
     {
-        public int ChatId { get; set; }
-        public string UserId { get; set; }
+        public Guid ChatId { get; set; }
+        public Guid UserId { get; set; }
         
         // navigational properties
         // enum users - from identity

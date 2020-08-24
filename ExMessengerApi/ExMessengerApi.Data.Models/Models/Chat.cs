@@ -1,8 +1,7 @@
-﻿namespace ExMessengerApi.Models.Models
+﻿namespace ExMessengerApi.Data.Models.Models
 {
-    public class Chat
+    public class Chat: BaseEntity
     {
-        public int ChatId { get; set; }
         public string Title { get; set; }
         
         // navigational property

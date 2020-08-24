@@ -1,5 +1,5 @@
 ﻿using ExMessengerApi.Data.Configurations;
-using ExMessengerApi.Models.Models;
+using ExMessengerApi.Data.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExMessengerApi.Data.Contexts
