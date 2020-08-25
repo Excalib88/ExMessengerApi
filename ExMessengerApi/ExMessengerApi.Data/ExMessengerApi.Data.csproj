@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ExMessengerApi.Models\ExMessengerApi.Models.csproj" />
+      <ProjectReference Include="..\ExMessengerApi.Data.Models\ExMessengerApi.Data.Models.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,7 +1,8 @@
-﻿namespace ExMessengerApi.Data.Repositories
+﻿using ExMessengerApi.Data.Models.Models;
+
+namespace ExMessengerApi.Data.Repositories
 {
-    public class ChatRepository
+    public class ChatRepository : RepositoryBase<Chat>
     {
-        
     }
 }
