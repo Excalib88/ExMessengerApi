@@ -2,7 +2,7 @@
 using ExMessengerApi.Data.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ExMessengerApi.Data.Contexts
+namespace ExMessengerApi.Data.Context
 {
     public class MainContext : DbContext
     {

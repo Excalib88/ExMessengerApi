@@ -8,7 +8,16 @@ namespace ExMessengerApi.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Chat> builder)
         {
-            throw new System.NotImplementedException();
+            builder.HasKey(key => key.Id)
+                .HasName("chat_id");
+
+            builder.HasMany(mes => mes.Messages)
+                .WithOne(mes => mes.Chat);
+
+            builder.Property(p => p.Title)
+                .HasColumnName("title");
+
+            builder.ToTable("chats");
         }
     }
 }
