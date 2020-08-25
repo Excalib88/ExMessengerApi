@@ -8,7 +8,7 @@ namespace ExMessengerApi.Data.Models.Models
         public Guid UserId { get; set; }
         
         // navigational properties
-        // enum users - from identity
-        // enum chats
+        public virtual Chat Chat { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }
