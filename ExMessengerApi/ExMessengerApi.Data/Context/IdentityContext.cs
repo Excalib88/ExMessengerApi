@@ -1,6 +1,10 @@
-﻿namespace ExMessengerApi.Data.Context
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+namespace ExMessengerApi.Data.Context
 {
-    public class IdentityContext
+    // ApplicationUser cannot pass as generic parameter here
+    public class IdentityContext : IdentityDbContext<IdentityUser>
     {
     }
 }

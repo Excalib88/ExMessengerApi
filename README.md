@@ -1,2 +1,9 @@
 # ExMessenger
-Ну тут мы типа делаем свой месангер, ну типа крч он крутой будет
+
+Greatest messenger of the world.
+
+## To Do
+
+1. Implement identity context
+2. Create migrations
+
